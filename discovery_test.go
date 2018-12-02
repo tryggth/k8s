@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/ericchiang/k8s"
+	"github.com/tryggth/k8s"
 )
 
 func TestDiscovery(t *testing.T) {

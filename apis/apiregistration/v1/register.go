@@ -1,6 +1,6 @@
 package v1
 
-import "github.com/ericchiang/k8s"
+import "github.com/tryggth/k8s"
 
 func init() {
 	k8s.Register("apiregistration.k8s.io", "v1", "apiservices", false, &APIService{})

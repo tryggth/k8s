@@ -51,9 +51,9 @@ package v1
 import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import k8s_io_apimachinery_pkg_runtime "github.com/ericchiang/k8s/runtime"
-import _ "github.com/ericchiang/k8s/runtime/schema"
-import _ "github.com/ericchiang/k8s/util/intstr"
+import k8s_io_apimachinery_pkg_runtime "github.com/tryggth/k8s/runtime"
+import _ "github.com/tryggth/k8s/runtime/schema"
+import _ "github.com/tryggth/k8s/util/intstr"
 
 import io "io"
 

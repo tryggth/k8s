@@ -10,8 +10,8 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/ericchiang/k8s/runtime"
-	"github.com/ericchiang/k8s/watch/versioned"
+	"github.com/tryggth/k8s/runtime"
+	"github.com/tryggth/k8s/watch/versioned"
 	"github.com/golang/protobuf/proto"
 )
 

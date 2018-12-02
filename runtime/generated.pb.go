@@ -17,7 +17,7 @@ package runtime
 import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import _ "github.com/ericchiang/k8s/util/intstr"
+import _ "github.com/tryggth/k8s/util/intstr"
 
 import io "io"
 

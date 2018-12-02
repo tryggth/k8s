@@ -311,7 +311,7 @@ type templateResource struct {
 
 var tmpl = template.Must(template.New("").Parse(`package {{ .Package }}
 
-import "github.com/ericchiang/k8s"
+import "github.com/tryggth/k8s"
 
 func init() {
 	{{- range $i, $r := .Resources -}}

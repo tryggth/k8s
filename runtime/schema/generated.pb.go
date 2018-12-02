@@ -14,7 +14,7 @@ package schema
 import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import _ "github.com/ericchiang/k8s/util/intstr"
+import _ "github.com/tryggth/k8s/util/intstr"
 
 // Reference imports to suppress errors if they are not otherwise used.
 var _ = proto.Marshal

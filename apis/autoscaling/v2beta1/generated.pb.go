@@ -30,12 +30,12 @@ package v2beta1
 import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import _ "github.com/ericchiang/k8s/apis/core/v1"
-import k8s_io_apimachinery_pkg_api_resource "github.com/ericchiang/k8s/apis/resource"
-import k8s_io_apimachinery_pkg_apis_meta_v1 "github.com/ericchiang/k8s/apis/meta/v1"
-import _ "github.com/ericchiang/k8s/runtime"
-import _ "github.com/ericchiang/k8s/runtime/schema"
-import _ "github.com/ericchiang/k8s/util/intstr"
+import _ "github.com/tryggth/k8s/apis/core/v1"
+import k8s_io_apimachinery_pkg_api_resource "github.com/tryggth/k8s/apis/resource"
+import k8s_io_apimachinery_pkg_apis_meta_v1 "github.com/tryggth/k8s/apis/meta/v1"
+import _ "github.com/tryggth/k8s/runtime"
+import _ "github.com/tryggth/k8s/runtime/schema"
+import _ "github.com/tryggth/k8s/util/intstr"
 
 import io "io"
 

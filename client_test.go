@@ -12,9 +12,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ericchiang/k8s"
-	corev1 "github.com/ericchiang/k8s/apis/core/v1"
-	metav1 "github.com/ericchiang/k8s/apis/meta/v1"
+	"github.com/tryggth/k8s"
+	corev1 "github.com/tryggth/k8s/apis/core/v1"
+	metav1 "github.com/tryggth/k8s/apis/meta/v1"
 )
 
 const skipMsg = `
